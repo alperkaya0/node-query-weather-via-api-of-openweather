@@ -1,0 +1,47 @@
+.window {
+    background-color: blueviolet;
+    opacity: 40%;
+    height: 200px;
+    width: 400px;
+    border: solid 2px rgb(118, 7, 192);
+    color: white;
+    position: relative;
+}
+.window-navbar {
+    background-color: rgb(75, 130, 231);
+    color: white;
+    text-align: left;
+    font-family:'Courier New', Courier, monospace;
+    padding: 5px 0 2px 5px;
+    border-bottom: solid 1px white;
+    position: relative;/* Position set to relative so that we can use absolute positioning at navbar-icon */
+}
+.window-body {
+    padding-left: 5px;
+    padding-top: 10px;
+    text-align: left;
+    font-size: 15px;
+}
+.navbar-icon {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.btn-right {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: rgb(234, 243, 255);
+    background-color: rgb(75, 130, 231);
+    border: solid 1px rgb(120, 10, 134);
+    height: 30px;
+}
+.btn-left {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: rgb(234, 243, 255);
+    background-color: rgb(75, 130, 231);
+    border: solid 1px rgb(120, 10, 134);
+    height: 30px;
+}
