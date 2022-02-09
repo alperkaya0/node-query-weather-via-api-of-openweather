@@ -38,5 +38,5 @@ app.get("/favicon.ico", function(req,res) {
 });
 
 app.listen(3000,function() {
-    console.log("Server is started at port 3000. https://localhost:3000")
+    console.log("Server is started at port 3000. http://localhost:3000")
 });
