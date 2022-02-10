@@ -10,10 +10,10 @@ app.get("/", function(req,res) {
 });
 
 app.post("/weather",function(req,res) {
-    let city = req.body.cityName;
-    let apiKey = "";
+    const city = req.body.cityName;
+    const apiKey = "";
     let unit = "metric";
-    let url = "https://api.openweathermap.org/data/2.5/weather?appid="+apiKey+"&q="+city+"&units="+unit;
+    const url = "https://api.openweathermap.org/data/2.5/weather?appid="+apiKey+"&q="+city+"&units="+unit;
     https.get(url, (response) => {
         response.on("data", (data) => {
             let resobj = JSON.parse(data);
